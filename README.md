@@ -25,6 +25,13 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 
 The simulation follows the methodology of **Esqueda et al. (DAFx-17)**, where **memoryless nonlinear mappings** are used to replicate the analog circuit’s waveshaping behavior.  
 
+## 🔹 Installation
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/annaobara/Buchla_259_Wavefolder_DSP.git
+   cd Buchla_259_Wavefolder_DSP
+
+
 ---
 
 ## 
