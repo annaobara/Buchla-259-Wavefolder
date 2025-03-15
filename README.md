@@ -14,6 +14,14 @@ This work is based on **virtual analog modeling** principles and was developed i
 
 ---
 
+## Installation
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/annaobara/Buchla-259-Wavefolder.git
+   cd Buchla-259-Wavefolder
+
+---
+
 ## Project Overview  
 
 The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis, known for its **nonlinear wavefolding** that introduces rich harmonic content. This project aims to:  
@@ -24,14 +32,3 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 - **Evaluate the digital model** against theoretical benchmarks and analog simulations  
 
 The simulation follows the methodology of **Esqueda et al. (DAFx-17)**, where **memoryless nonlinear mappings** are used to replicate the analog circuit’s waveshaping behavior.  
-
-## 🔹 Installation
-1. **Clone the repository**:  
-   ```bash
-   git clone https://github.com/annaobara/Buchla_259_Wavefolder_DSP.git
-   cd Buchla_259_Wavefolder_DSP
-
-
----
-
-## 
