@@ -46,6 +46,45 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 ---
 
 ## Repository Structure
-<pre><code>Buchla-259-Wavefolder/
-├── src/ # MATLAB scripts for signal generation and modeling ├── utils/ # polyBLAMP correction functions ├── audio_examples/ # Sample input and output signals ├── plots/ # Spectrograms and waveform comparisons ├── docs/ # Full project report └── README.md # This file </code></pre>
+
+---
+
+## 📊 Spectral Analysis
+
+The model was tested with both sinusoidal and complex inputs. Results showed significantly reduced aliasing and preserved harmonic structures when compared to uncorrected models. Oversampling (8×) and BLAMP correction provided smooth spectral transitions.
+
+> ![Spectrogram](plots/spectrogram.png)
+
+---
+
+## 🎧 Audio Demos
+
+| Description         | File                           |
+|---------------------|--------------------------------|
+| Analog reference     | `audio_examples/original_analog.wav` |
+| Modeled output       | `audio_examples/digital_model.wav`   |
+
+---
+
+## 🔧 Requirements
+
+- MATLAB R2022b or later  
+- Signal Processing Toolbox  
+
+---
+
+## 📄 License
+
+Licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
+
+---
+
+## 📚 Reference
+
+Esqueda, F., Pöntynen, H., Välimäki, V., & Parker, J. D. (2017). *Virtual Analog Buchla 259 Wavefolder*. In **Proceedings of the 20th International Conference on Digital Audio Effects (DAFx-17)**.
+
+---
+
+Developed by [Anna Obara](https://github.com/annaobara) • Aalborg University, 2025
+
  
