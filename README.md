@@ -6,11 +6,34 @@ This work is based on **virtual analog modeling** principles and was developed i
 
 ---
 
+## Project Overview  
+
+The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis, known for its **nonlinear wavefolding** that introduces rich harmonic content. This project aims to:  
+
+- **Digitally model** the Buchla 259 circuit while preserving its timbral characteristics  
+- **Analyze the spectral response** and minimize aliasing artifacts  
+- **Implement polyBLAMP** as an efficient anti-aliasing technique  
+- **Evaluate the digital model** against theoretical benchmarks and analog simulations
+
+---
+
 ## Features  
-✔ **MATLAB-based digital wavefolder** with nonlinear waveshaping  
-✔ **PolyBLAMP anti-aliasing** to suppress spectral artifacts  
-✔ **Comparative analysis** with the original Buchla 259 analog circuit  
-✔ **Supports real-time synthesis applications**  
+- MATLAB-based real-time signal processing
+- Anti-aliasing using **polyBLAMP** (Polynomial Band-Limited Step)
+- Nonlinear folding via memoryless functions
+- Resistor-weighted voltage summation
+- Spectral validation via FFT and spectrograms
+- Designed for use in virtual modular synthesis and software synthesizers
+
+---
+
+## Techniques Used
+
+- Memoryless nonlinear shaping functions based on the methodology of **Esqueda et al. (DAFx-17)**
+- Resistor network emulation with precomputed scalar coefficients
+- Fractional delay analysis for sample-accurate alias suppression
+- Symmetrical inverse clipping
+- Global signal summation with dynamic scaling
 
 ---
 
@@ -19,16 +42,4 @@ This work is based on **virtual analog modeling** principles and was developed i
    ```bash
    git clone https://github.com/annaobara/Buchla-259-Wavefolder.git
    cd Buchla-259-Wavefolder
-
----
-
-## Project Overview  
-
-The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis, known for its **nonlinear wavefolding** that introduces rich harmonic content. This project aims to:  
-
-- **Digitally model** the Buchla 259 circuit while preserving its timbral characteristics  
-- **Analyze the spectral response** and minimize aliasing artifacts  
-- **Implement polyBLAMP** as an efficient anti-aliasing technique  
-- **Evaluate the digital model** against theoretical benchmarks and analog simulations  
-
-The simulation follows the methodology of **Esqueda et al. (DAFx-17)**, where **memoryless nonlinear mappings** are used to replicate the analog circuit’s waveshaping behavior.  
+ 
