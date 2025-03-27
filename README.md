@@ -46,5 +46,6 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 ---
 
 ## Repository Structure
-Buchla-259-Wavefolder/ ├── src/ # MATLAB scripts for signal generation and modeling ├── utils/ # polyBLAMP correction functions ├── audio_examples/ # Sample input and output signals ├── plots/ # Spectrograms and waveform comparisons ├── docs/ # Full project report └── README.md # This file
+<pre><code>Buchla-259-Wavefolder/
+├── src/ # MATLAB scripts for signal generation and modeling ├── utils/ # polyBLAMP correction functions ├── audio_examples/ # Sample input and output signals ├── plots/ # Spectrograms and waveform comparisons ├── docs/ # Full project report └── README.md # This file </code></pre>
  
