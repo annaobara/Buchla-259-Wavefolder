@@ -47,6 +47,8 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 
 ## Repository Structure
 
+📁 docs/ → Final project report (PDF) 📁 src/ → MATLAB implementation files 📁 src/plots/ → Output figures (spectrograms, waveform plots) 📁 tests/ → Example/test scripts 📁 notebooks/ → (Optional) MATLAB Live Scripts 📁 audio_examples/ → (Optional) Audio demos
+
 ---
 
 ## 📊 Spectral Analysis
@@ -79,7 +81,13 @@ Licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 ---
 
-## 📚 Reference
+## 📚 Documentation
+
+[Read full project report](docs/DSP_2024_fall.pdf)
+
+---
+
+## 🔗 Reference
 
 Esqueda, F., Pöntynen, H., Välimäki, V., & Parker, J. D. (2017). *Virtual Analog Buchla 259 Wavefolder*. In **Proceedings of the 20th International Conference on Digital Audio Effects (DAFx-17)**.
 
