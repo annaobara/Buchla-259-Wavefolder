@@ -47,7 +47,14 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 
 ## Repository Structure
 
-📁 docs/ → Final project report (PDF) 📁 src/ → MATLAB implementation files 📁 src/plots/ → Output figures (spectrograms, waveform plots) 📁 tests/ → Example/test scripts 📁 notebooks/ → (Optional) MATLAB Live Scripts 📁 audio_examples/ → (Optional) Audio demos
+```
+📁 docs/             → Final project report (PDF)
+📁 src/              → MATLAB implementation files
+📁 src/plots/        → Output figures (spectrograms, waveform plots)
+📁 tests/            → Example/test scripts
+📁 notebooks/        → (Optional) MATLAB Live Scripts
+📁 audio_examples/   → (Optional) Audio demos
+```
 
 ---
 
