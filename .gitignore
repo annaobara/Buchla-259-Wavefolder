@@ -1,0 +1,8 @@
+*.asv
+*.fig
+*.mat
+*.mlx
+*.log
+*.DS_Store
+.vscode/
+__pycache__/
