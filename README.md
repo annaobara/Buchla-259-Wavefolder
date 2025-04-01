@@ -53,7 +53,7 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 
 The model was tested with both sinusoidal and complex inputs. Results showed significantly reduced aliasing and preserved harmonic structures when compared to uncorrected models. Oversampling (8×) and BLAMP correction provided smooth spectral transitions.
 
-> ![Spectrogram](plots/spectrogram.png)
+> ![Spectrogram](images/spectrogram.jpg)
 
 ---
 
