@@ -65,15 +65,6 @@ The model was tested with both sinusoidal and complex inputs. Results showed sig
 
 ---
 
-## 🎧 Audio Demos
-
-| Description         | File                           |
-|---------------------|--------------------------------|
-| Analog reference     | `audio_examples/original_analog.wav` |
-| Modeled output       | `audio_examples/digital_model.wav`   |
-
----
-
 ## 🔧 Requirements
 
 - MATLAB R2022b or later  
