@@ -57,7 +57,7 @@ The **Buchla 259 Wavefolder** is an essential component of West Coast synthesis,
 
 ---
 
-## 📊 Spectral Analysis
+## Spectral Analysis
 
 The model was tested with sinusoidal inputs. Results showed significantly reduced aliasing and preserved harmonic structures when compared to uncorrected models.
 
@@ -65,26 +65,26 @@ The model was tested with sinusoidal inputs. Results showed significantly reduce
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - MATLAB R2022b or later  
 - Signal Processing Toolbox  
 
 ---
 
-## 📄 License
+## License
 
 Licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 [Read full project report](docs/DSP_2024_fall.pdf)
 
 ---
 
-## 🔗 Reference
+## Reference
 
 Esqueda, F., Pöntynen, H., Välimäki, V., & Parker, J. D. (2017). *Virtual Analog Buchla 259 Wavefolder*. In **Proceedings of the 20th International Conference on Digital Audio Effects (DAFx-17)**.
 
